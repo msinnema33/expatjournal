@@ -101,14 +101,7 @@ const Dashboard = (props) => {
                                 <img src={story.image_URL} /> 
                                 <h1>{story.name}</h1>
                             </Link>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> af53a6972af98b2667dae96c932ef92601f1198b
-=======
-
->>>>>>> 5366d7c3a4f470d0d7fcd85a2e6717637fa64b41
                       <div className='function-btns'>
                         {/* need to setEditing(true) in EditForm while still passing in the story props */}
                           <button className='edit-btn' type='submit' onClick={() => props.EditForm(props)}>Edit Story</button>
@@ -119,21 +112,8 @@ const Dashboard = (props) => {
                 </div>
                 );
             })}
-<<<<<<< HEAD
-<<<<<<< HEAD
         </>
-=======
-
-        </div>
->>>>>>> af53a6972af98b2667dae96c932ef92601f1198b
-=======
-
-        </>
-
-
-        </div>
-
->>>>>>> 5366d7c3a4f470d0d7fcd85a2e6717637fa64b41
+        
         </StoryBox>
 
             <UploadLinks>
